@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E0E0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="78dp"
+        android:layout_marginStart="78dp"
+        android:text="0"
+        android:textColor="#393838"
+        android:textSize="150sp"
+        app:fontFamily="@font/geo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="#f2cdce"
+        android:onClick="GuardarDatos"
+        android:text="Reiniciar conteo "
+        android:textColor="#8E5451"
+        android:textSize="18sp"
+        app:fontFamily="@font/bungee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tx" />
+
+    <Button
+        android:id="@+id/btGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="22dp"
+        android:background="#E5F542"
+        android:text="Guardar conteo"
+        android:textColor="#6B7321"
+        android:textSize="18sp"
+        app:fontFamily="@font/bungee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btBorrar" />
+
+    <Button
+        android:id="@+id/btVer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="9dp"
+        android:background="#E5F542"
+        android:text="Ver conteos guardados"
+        android:textColor="#6B7321"
+        android:textSize="18sp"
+        app:fontFamily="@font/bungee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btGuardar" />
+
+    <Button
+        android:id="@+id/btGuardarNuebe"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="29dp"
+        android:background="#27BED0"
+        android:text="Guardar en la nube"
+        android:textColor="#2760D0"
+        android:textSize="18sp"
+        app:fontFamily="@font/bungee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btVer" />
+
+
+</android.support.constraint.ConstraintLayout>
