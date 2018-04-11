@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btGuardar" />
 
     <Button
-        android:id="@+id/btGuardarNuebe"
+        android:id="@+id/btGuardarNube"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="29dp"
